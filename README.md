@@ -1,4 +1,4 @@
-# Apresentação: 
+# Descrição: 
 Projeto **CRUD** de criação e visualização de artigos classificados por categorias(também criadas pelo usuário), contendo sistema de permissões(administração) e login/registro.
 
 ### Principais pacotes/tecnologias - Backend: 
@@ -18,11 +18,24 @@ Projeto **CRUD** de criação e visualização de artigos classificados por cate
 - **liquor-tree**: Responsável por criar opções em formato de árvore.
 - **vue-toasted**: Responsável pelas mensagens de error ou success conforme as operações realizadas.
 
-# Instalação:
+# Requisitos: 
+para executar o projeto, será necessário instalar: 
+- NodeJS
+- PostgreSQL
+- MongoDB
+- Instalar dependências: `npm install ou yarn install`
 
-- Instalar dependência: `npm install ou yarn install`
+# Inicialização:
 - Iniciar backend em modo de desenvolvimento: `npm start`
 - Iniciar backend em modo de produção: `npm run production`
+- Iniciar MongoDB: `mongod`
 - Iniciar frontend: `npm run serve`
+
+
+
+
+
+
+
 
 
